@@ -127,7 +127,7 @@ function changeDescription(self) {
     self.classList.add("active");
 }
 function changeHeading() {
-    var a = "Shivam Goyal| Frontend Developer";
+    var a = "Priyanshu Rajput| Blockchain Developer";
     if (document.title.length == a.length) {
         document.title = "Welcome";
     }
@@ -163,7 +163,7 @@ function sendEmail() {
     }
     else {
         var btn = gebid("sendEmail-btn");
-        btn.setAttribute('href', "mailto:shivamr.kgoyal@gmail.com?subject=" + subject);
+        btn.setAttribute('href', "mailto:priyanshu.21march@gmail.com?subject=" + subject);
         setTimeout(function (text) {
             btn.innerText = "Submit";
         }, 3000);   
